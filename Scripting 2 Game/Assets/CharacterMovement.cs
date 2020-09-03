@@ -11,16 +11,18 @@ public CharacterController controller;
 
 public Vector3 movement;
 
-public float moveSpeed = 5f;
+public float moveSpeed = 5f, gravity = -9.18f, jumpSpeed = 10f, rotateSpeed = 100f; 
+private float yVar; 
 
-public float gravity = 2f;
+public int jumpCountMax = 2; 
 
-public float jumpSpeed = 40f;
-
+private int jumpCount; 
 
     // Start is called before the first frame update
     void Start()
     {
+       
+
        controller = GetComponent<CharacterController>();
         
     }
@@ -28,17 +30,42 @@ public float jumpSpeed = 40f;
     // Update is called once per frame
     void Update()
     {
-        controller.Move(movement*Time.deltaTime);
+       
+        var vInput = Input.GetAxis("Horizontal")*moveSpeed;
+        movement.Set(vInput, yVar, 0);
+
+        var hInput = Input.GetAxis("Horizontal")*Time.deltaTime*rotateSpeed;
+        transform.Rotate(0, hInput, 0);
+
+        yVar += gravity*Time.deltaTime; 
+
+      
         
-        movement.y -= gravity;
 
-        movement.x = Input.GetAxis("Horizontal")*moveSpeed;
 
-        if(Input.GetButtonDown("Jump"))
+        movement = transform.TransformDirection(movement);
+        controller.Move(movement*Time.deltaTime);
+
+        
+
+
+
+        if(controller.isGrounded && movement.y < 0)
+        {
+            yVar = -1f; 
+            jumpCount = 0; 
+        }
+
+        
+
+        if(Input.GetButtonDown("Jump") && jumpCount < jumpCountMax)
         {
 
-            movement.y = jumpSpeed; 
+            yVar = jumpSpeed;
+            jumpCount++;  
         }
+
+        
 
         
 
