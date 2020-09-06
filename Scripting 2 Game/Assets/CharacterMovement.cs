@@ -34,8 +34,14 @@ private int jumpCount;
         var vInput = Input.GetAxis("Horizontal")*moveSpeed;
         movement.Set(vInput, yVar, 0);
 
+       
+       
+      
         var hInput = Input.GetAxis("Horizontal")*Time.deltaTime*rotateSpeed;
-        transform.Rotate(0, hInput, 0);
+        transform.Rotate(0, hInput, 0);  
+
+       
+       
 
         yVar += gravity*Time.deltaTime; 
 
