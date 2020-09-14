@@ -177,7 +177,7 @@ MonoBehaviour:
   movement: {x: 0, y: -1, z: 0}
   moveSpeed: 5
   gravity: -9.18
-  jumpSpeed: 10
+  jumpSpeed: 5
   rotateSpeed: 100
   jumpCountMax: 2
 --- !u!23 &409762894

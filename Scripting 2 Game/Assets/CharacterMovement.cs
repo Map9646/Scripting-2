@@ -11,7 +11,7 @@ public CharacterController controller;
 
 public Vector3 movement;
 
-public float moveSpeed = 5f, gravity = -9.18f, jumpSpeed = 10f, rotateSpeed = 100f; 
+public float moveSpeed = 5f, gravity = -9.18f, jumpSpeed = 5f, rotateSpeed = 10f; 
 private float yVar; 
 
 public int jumpCountMax = 2; 
