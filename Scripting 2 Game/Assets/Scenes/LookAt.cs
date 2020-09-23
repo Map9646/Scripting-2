@@ -5,19 +5,19 @@ using UnityEngine;
 public class LookAt : MonoBehaviour
 {
     public Transform lookObj;
+    
 
-
-
-    // Start is called before the first frame update
-    void Start()
+    public void Look()
     {
-        
-    }
+     
+    transform.LookAt(lookObj);
+    var transformRotation = transform.eulerAngles; 
+    transformRotation.x = 0;
+    transformRotation.y -= 90;
+    transform.rotation = Quaternion.Euler(transformRotation);
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-        
     }
+    
+
+   
 }
