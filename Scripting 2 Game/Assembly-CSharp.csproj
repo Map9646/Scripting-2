@@ -54,13 +54,14 @@
      <Compile Include="Assets\ScriptableObjects\Vector3Data.cs" />
      <Compile Include="Assets\Scenes\Lerping.cs" />
      <Compile Include="Assets\Scenes\ApplyForce.cs" />
+     <Compile Include="Assets\Behaviours\MoveLocator.cs" />
      <Compile Include="Assets\Scenes\CharacterMovement.cs" />
      <Compile Include="Assets\Behaviours\AimMouseLocationBehaviour.cs" />
-     <Compile Include="Assets\Scenes\LookAt.cs" />
+     <Compile Include="Assets\Behaviours\LookAt.cs" />
      <Compile Include="Assets\Scenes\MouseEventsBehaviour.cs" />
      <Compile Include="Assets\Scenes\IntData.cs" />
      <Compile Include="Assets\Scenes\Instancer.cs" />
-     <Compile Include="Assets\Behaviours\MoveLocator.cs" />
+     <Compile Include="Assets\Behaviours\PowerUp.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/Users/Megan Petersen/Desktop/Scripting 2/Scripting 2 Game/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>

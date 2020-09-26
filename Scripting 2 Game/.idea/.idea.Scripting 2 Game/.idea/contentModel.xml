@@ -8,7 +8,9 @@
       <e p="Assets" t="Include">
         <e p="Behaviours" t="Include">
           <e p="AimMouseLocationBehaviour.cs" t="Include" />
+          <e p="LookAt.cs" t="Include" />
           <e p="MoveLocator.cs" t="Include" />
+          <e p="PowerUp.cs" t="Include" />
         </e>
         <e p="FloatData" t="Include">
           <e p="FloatData.cs" t="Include" />
@@ -19,7 +21,6 @@
           <e p="Instancer.cs" t="Include" />
           <e p="IntData.cs" t="Include" />
           <e p="Lerping.cs" t="Include" />
-          <e p="LookAt.cs" t="Include" />
           <e p="MouseEventsBehaviour.cs" t="Include" />
         </e>
         <e p="ScriptableObjects" t="Include">
