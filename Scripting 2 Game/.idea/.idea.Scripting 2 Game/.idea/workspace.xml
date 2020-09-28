@@ -12,6 +12,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Behaviours/PowerUp.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Behaviours/TriggerEventsBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -23,6 +24,8 @@
         <option value="$PROJECT_DIR$/Assets/Scenes/ProjectilePointBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/Instancer.cs" />
         <option value="$PROJECT_DIR$/Assets/Behaviours/PowerUp.cs" />
+        <option value="$PROJECT_DIR$/Assets/FloatData/FloatData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Behaviours/TriggerEventsBehaviour.cs" />
       </list>
     </option>
   </component>
@@ -75,6 +78,7 @@
       <workItem from="1600907003073" duration="4059000" />
       <workItem from="1601043584219" duration="4805000" />
       <workItem from="1601217881331" duration="293000" />
+      <workItem from="1601319694150" duration="2515000" />
     </task>
     <servers />
   </component>
