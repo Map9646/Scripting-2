@@ -6,7 +6,7 @@ using UnityEngine;
 public class ApplyForce : MonoBehaviour
 {
     private Rigidbody rBody; 
-    public float force = 300f;
+    public float force = 30f;
 
     // Start is called before the first frame update
     void Start()
@@ -17,9 +17,5 @@ public class ApplyForce : MonoBehaviour
         rBody.AddForce(forceDirection); 
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
 }
