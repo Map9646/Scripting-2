@@ -6,7 +6,7 @@ using UnityEngine.AI;
 
 public class AIBehaviour : MonoBehaviour
 {
-    private WaitForFixedUpdate wffu = new WaitForFixedUpdate();
+    private WaitForFixedUpdate wfs = new WaitForFixedUpdate();
     public Transform player;
     private bool canNav = true;
     private NavMeshAgent agent; 
@@ -22,7 +22,7 @@ public class AIBehaviour : MonoBehaviour
         canNav = true;
         while (canNav)
         {
-            yield return wffu;
+            yield return wfs;
             agent.destination = player.position;
         }
             
