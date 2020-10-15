@@ -64,6 +64,7 @@
      <Compile Include="Assets\Scenes\MouseEventsBehaviour.cs" />
      <Compile Include="Assets\Scenes\IntData.cs" />
      <Compile Include="Assets\Scenes\Instancer.cs" />
+     <Compile Include="Assets\Behaviours\AIPatrolBehaviour.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/Users/Megan Petersen/Desktop/Scripting 2/Scripting 2 Game/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
