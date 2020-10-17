@@ -8,29 +8,53 @@ public class AIBehaviour : MonoBehaviour
 {
     private WaitForFixedUpdate wfs = new WaitForFixedUpdate();
     public Transform player;
-    private bool canNav = true;
-    private NavMeshAgent agent; 
+    private NavMeshAgent agent;
+    public bool canHunt, canPatrol;
+    public List<Transform> patrolPoints; 
     
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
+        StartCoroutine(Patrol());
     }
 
     
     private IEnumerator OnTriggerEnter(Collider other)
     {
-        canNav = true;
-        while (canNav)
+        canHunt = true;
+        canPatrol = false;
+        agent.destination = player.position;
+        var distance = agent.remainingDistance;
+        while (distance <= 0.25f)
         {
+            distance = agent.remainingDistance;
             yield return wfs;
-            agent.destination = player.position;
+            
         }
             
-        
-    }
+        yield return new WaitForSeconds(2f);
 
+        StartCoroutine(canHunt ? OnTriggerEnter(other) : Patrol());
+    }
     private void OnTriggerExit(Collider other)
     {
-        canNav = false; 
+        canHunt = false;
+        
     }
+    
+    private int i = 0;
+    private IEnumerator Patrol()
+    {
+        canPatrol = true;
+        while (canPatrol)
+        {
+            yield return wfs;
+            if (agent.pathPending || !(agent.remainingDistance < 0.5f)) continue;
+            agent.destination = patrolPoints[i].position;
+            i = (i + 1) % patrolPoints.Count;
+        }
+    } 
 }
+
+    
+

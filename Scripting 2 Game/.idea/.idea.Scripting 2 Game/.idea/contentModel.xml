@@ -9,6 +9,7 @@
         <e p="Behaviours" t="Include">
           <e p="AIBehaviour.cs" t="Include" />
           <e p="AimMouseLocationBehaviour.cs" t="Include" />
+          <e p="AIPatrolBehaviour.cs" t="Include" />
           <e p="LookAt.cs" t="Include" />
           <e p="MoveLocator.cs" t="Include" />
           <e p="PowerUp.cs" t="Include" />
