@@ -13,6 +13,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Behaviours/PowerUp.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Behaviours/StringListData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Behaviours/CharacterDatas.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Behaviours/AIPatrolBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -32,6 +33,8 @@
         <option value="$PROJECT_DIR$/Assets/Behaviours/TriggerEventsBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Behaviours/StringListData.cs" />
         <option value="$PROJECT_DIR$/Assets/FloatData/FloatData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Behaviours/CharacterStates.cs" />
+        <option value="$PROJECT_DIR$/Assets/Behaviours/CharacterDatas.cs" />
       </list>
     </option>
   </component>
@@ -92,6 +95,7 @@
       <workItem from="1602693503036" duration="283000" />
       <workItem from="1602696466057" duration="1190000" />
       <workItem from="1602902660036" duration="7818000" />
+      <workItem from="1603307840235" duration="1854000" />
     </task>
     <servers />
   </component>
