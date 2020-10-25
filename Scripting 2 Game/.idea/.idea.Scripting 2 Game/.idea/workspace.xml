@@ -11,10 +11,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Behaviours/PowerUp.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Death and Respawn/Assets/Scripts/Respawn.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Behaviours/Player/CharacterMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Behaviours/StringListData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Behaviours/CharacterDatas.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Behaviours/AIPatrolBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Game Essentials/Walk Run for Mr. Penguin/Assets/Scripts/TriggerBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -35,6 +36,10 @@
         <option value="$PROJECT_DIR$/Assets/FloatData/FloatData.cs" />
         <option value="$PROJECT_DIR$/Assets/Behaviours/CharacterStates.cs" />
         <option value="$PROJECT_DIR$/Assets/Behaviours/CharacterDatas.cs" />
+        <option value="$PROJECT_DIR$/Assets/Behaviours/RespawnBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Behaviours/Player/CharacterMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Behaviours/Player/RespawnBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Behaviours/Player/PowerUp.cs" />
       </list>
     </option>
   </component>
@@ -95,7 +100,9 @@
       <workItem from="1602693503036" duration="283000" />
       <workItem from="1602696466057" duration="1190000" />
       <workItem from="1602902660036" duration="7818000" />
-      <workItem from="1603307840235" duration="1854000" />
+      <workItem from="1603307840235" duration="3015000" />
+      <workItem from="1603327728190" duration="2312000" />
+      <workItem from="1603662848433" duration="620000" />
     </task>
     <servers />
   </component>

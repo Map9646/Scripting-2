@@ -6,36 +6,38 @@
     <e p="C:\Users\Megan Petersen\Desktop\Scripting 2\Scripting 2 Game" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="ApplyForce.cs" t="Include" />
         <e p="Behaviours" t="Include">
-          <e p="AIBehaviour.cs" t="Include" />
+          <e p="AI" t="Include">
+            <e p="AIBehaviour.cs" t="Include" />
+            <e p="AIPatrolBehaviour.cs" t="Include" />
+          </e>
           <e p="AimMouseLocationBehaviour.cs" t="Include" />
-          <e p="AIPatrolBehaviour.cs" t="Include" />
+          <e p="BulletBehaviour.cs" t="Include" />
           <e p="CharacterDatas.cs" t="Include" />
           <e p="CharacterStates.cs" t="Include" />
           <e p="LookAt.cs" t="Include" />
           <e p="MoveLocator.cs" t="Include" />
-          <e p="PlayerShoot.cs" t="Include" />
-          <e p="PowerUp.cs" t="Include" />
+          <e p="Player" t="Include">
+            <e p="CharacterMovement.cs" t="Include" />
+            <e p="PlayerShooting.cs" t="Include" />
+            <e p="PowerUp.cs" t="Include" />
+            <e p="RespawnBehaviour.cs" t="Include" />
+          </e>
           <e p="StringListData.cs" t="Include" />
           <e p="TriggerEvents.cs" t="Include" />
         </e>
         <e p="FloatData" t="Include">
           <e p="FloatData.cs" t="Include" />
         </e>
+        <e p="IntData.cs" t="Include" />
         <e p="Scenes" t="Include">
-          <e p="ApplyForce.cs" t="Include" />
-          <e p="CharacterMovement.cs" t="Include" />
           <e p="Instancer.cs" t="Include" />
-          <e p="IntData.cs" t="Include" />
           <e p="Lerping.cs" t="Include" />
           <e p="MouseEventsBehaviour.cs" t="Include" />
         </e>
         <e p="ScriptableObjects" t="Include">
           <e p="Vector3Data.cs" t="Include" />
-        </e>
-        <e p="Scripts" t="Include">
-          <e p="BulletBehaviour.cs" t="Include" />
-          <e p="PlayerShooting.cs" t="Include" />
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />
