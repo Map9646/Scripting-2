@@ -16,6 +16,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Behaviours/StringListData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Behaviours/CharacterDatas.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Game Essentials/Walk Run for Mr. Penguin/Assets/Scripts/TriggerBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Behaviours/UI Scripts/ImageBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -40,6 +41,7 @@
         <option value="$PROJECT_DIR$/Assets/Behaviours/Player/CharacterMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Behaviours/Player/RespawnBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Behaviours/Player/PowerUp.cs" />
+        <option value="$PROJECT_DIR$/Assets/Behaviours/UI Scripts/ImageBehaviour.cs" />
       </list>
     </option>
   </component>
@@ -102,7 +104,8 @@
       <workItem from="1602902660036" duration="7818000" />
       <workItem from="1603307840235" duration="3015000" />
       <workItem from="1603327728190" duration="2312000" />
-      <workItem from="1603662848433" duration="620000" />
+      <workItem from="1603662848433" duration="1007000" />
+      <workItem from="1603745749222" duration="1640000" />
     </task>
     <servers />
   </component>
