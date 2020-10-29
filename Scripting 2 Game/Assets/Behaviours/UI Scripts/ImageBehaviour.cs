@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+
 [RequireComponent(typeof(Image))]
+
 public class ImageBehaviour : MonoBehaviour
 {
     public Image healthBar;
@@ -10,7 +12,7 @@ public class ImageBehaviour : MonoBehaviour
     public FloatData health; 
     
     
-    // Start is called before the first frame update
+    
     void Start()
     {
         healthBar = GetComponent<Image>();
@@ -19,6 +21,18 @@ public class ImageBehaviour : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        healthBar.fillAmount = health.value / 100;
+        healthBar.color = Color.green;
+
+        //if (health.value >= 40)
+        //{
+            //healthBar.color = Color.yellow;
+            
+        //}
+
+        //if (health.value >= 10)
+        //{
+            //healthBar.color = Color.red; 
+        //}
     }
 }
