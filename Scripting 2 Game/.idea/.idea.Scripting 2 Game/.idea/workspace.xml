@@ -13,7 +13,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/../../Death and Respawn/Assets/Scripts/Respawn.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Behaviours/Player/CharacterMovement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Behaviours/CameraFollow.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Behaviours/CameraFollow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Behaviours/StringListData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Behaviours/CharacterDatas.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Game Essentials/Walk Run for Mr. Penguin/Assets/Scripts/TriggerBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
@@ -44,6 +44,7 @@
         <option value="$PROJECT_DIR$/Assets/Behaviours/Player/PowerUp.cs" />
         <option value="$PROJECT_DIR$/Assets/Behaviours/UI Scripts/ImageBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Behaviours/CameraFollowBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Behaviours/CameraFollow.cs" />
       </list>
     </option>
   </component>
@@ -108,7 +109,7 @@
       <workItem from="1603327728190" duration="2312000" />
       <workItem from="1603662848433" duration="1007000" />
       <workItem from="1603745749222" duration="2164000" />
-      <workItem from="1603942745130" duration="2699000" />
+      <workItem from="1603942745130" duration="3525000" />
     </task>
     <servers />
   </component>
