@@ -7,18 +7,24 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SceneManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviours/CameraFollow.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/CharacterMoverBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/CameraFollow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/CharacterMoverBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SceneManager.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1ja24BUVsj71figQwjliMCcWfXK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -64,6 +70,7 @@
       <option name="presentableId" value="Default" />
       <updated>1604027718946</updated>
       <workItem from="1604027921600" duration="2735000" />
+      <workItem from="1604255414311" duration="10926000" />
     </task>
     <servers />
   </component>

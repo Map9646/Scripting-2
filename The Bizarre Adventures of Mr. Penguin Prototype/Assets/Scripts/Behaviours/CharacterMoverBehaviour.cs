@@ -10,11 +10,11 @@ public class CharacterMoverBehaviour : MonoBehaviour
         private Vector3 movement;
 
         public float gravity = -9.18f,
-            jumpSpeed = 5f,
-            rotateSpeed = 100f,
-            moveSpeed = 10f,
-            normalSpeed = 10f,
-            fastSpeed = 20f;
+            jumpSpeed = 8f,
+            rotateSpeed = 200f,
+            moveSpeed = 20f,
+            normalSpeed = 20f,
+            fastSpeed = 30f;
 
         private float yVar;
 
@@ -22,6 +22,8 @@ public class CharacterMoverBehaviour : MonoBehaviour
         public int jumpCountMax = 2;
 
         private int jumpCount;
+        
+        
 
 
 
@@ -74,7 +76,6 @@ public class CharacterMoverBehaviour : MonoBehaviour
 
             if (Input.GetButtonDown("Jump") && jumpCount < jumpCountMax)
             {
-
                 yVar = jumpSpeed;
                 jumpCount++;
             }

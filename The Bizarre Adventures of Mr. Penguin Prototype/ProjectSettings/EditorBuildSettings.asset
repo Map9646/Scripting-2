@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes: 
+  - enabled: 1
+    path: Assets/Scenes/The Village.unity
+    guid: 845a64156c52c2240aee07b62e9a580d
+  - enabled: 1
+    path: Assets/Scenes/The Puzzle and Boss Room.unity
+    guid: 43a7648b14be6744889989263048d6eb
   m_configObjects: {}
