@@ -58,6 +58,7 @@
      <Compile Include="Assets\Behaviours\Player\RespawnBehaviour.cs" />
      <Compile Include="Assets\Behaviours\CharacterDatas.cs" />
      <Compile Include="Assets\Scenes\Lerping.cs" />
+     <Compile Include="Assets\Behaviours\CameraFollow.cs" />
      <Compile Include="Assets\Behaviours\AI\AIPatrolBehaviour.cs" />
      <Compile Include="Assets\Behaviours\StringListData.cs" />
      <Compile Include="Assets\ApplyForce.cs" />
@@ -72,7 +73,7 @@
      <Compile Include="Assets\Scenes\MouseEventsBehaviour.cs" />
      <Compile Include="Assets\IntData.cs" />
      <Compile Include="Assets\Scenes\Instancer.cs" />
-     <Compile Include="Assets\Behaviours\CameraFollow.cs" />
+     <Compile Include="Assets\Scripts\Animations.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/Users/Megan Petersen/Desktop/Scripting 2/Scripting 2 Game/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>

@@ -45,6 +45,7 @@
         <option value="$PROJECT_DIR$/Assets/Behaviours/UI Scripts/ImageBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Behaviours/CameraFollowBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Behaviours/CameraFollow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Animations.cs" />
       </list>
     </option>
   </component>
@@ -110,6 +111,7 @@
       <workItem from="1603662848433" duration="1007000" />
       <workItem from="1603745749222" duration="2164000" />
       <workItem from="1603942745130" duration="3525000" />
+      <workItem from="1604729410071" duration="1792000" />
     </task>
     <servers />
   </component>
