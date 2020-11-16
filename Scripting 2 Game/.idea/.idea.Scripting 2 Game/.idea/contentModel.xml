@@ -25,6 +25,7 @@
             <e p="PowerUp.cs" t="Include" />
             <e p="RespawnBehaviour.cs" t="Include" />
           </e>
+          <e p="Puzzles.cs" t="Include" />
           <e p="StringListData.cs" t="Include" />
           <e p="TriggerEvents.cs" t="Include" />
           <e p="UI Scripts" t="Include">
